@@ -18,6 +18,5 @@ jobs:
           git clone -b master https://gitlab.hzdr.de/Normo/deepFPlearn.git/
           cd deepFPlearn
           git config --global user.name $GITHUB_ACTOR
-          git remote add github $GITHUB_API_URL
           git pull github master
           git push https://Normo:$ACCESS_TOKEN@gitlab.hzdr.de/Normo/deepFPlearn.git/
